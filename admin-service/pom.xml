@@ -49,7 +49,7 @@
 		<dependency>
 			<groupId>com.feuji</groupId>
 			<artifactId>common-model</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 	<build>
