@@ -12,7 +12,7 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=/home/mohs/.jenkins/workspace/onlineexam/common-model/target/common-model.jar
+ARG JAR_FILE= /home/mohs/.m2/repository/com/feuji/common-model/0.0.1/common-model-0.0.1.jar
 
 # cd /opt/app
 WORKDIR /opt/app
