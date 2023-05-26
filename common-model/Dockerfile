@@ -18,7 +18,7 @@ ARG JAR_FILE= /home/mohs/.m2/repository/com/feuji/common-model/0.0.1/common-mode
 WORKDIR /opt/app
 
 # cp target/spring-boot-web.jar /opt/app/app.jar
-COPY ${JAR_FILE} common-model.jar
+ADD ${JAR_FILE} common-model.jar
 
 # java -jar /opt/app/app.jar
 ENTRYPOINT ["java","-jar","common-model.jar"]
